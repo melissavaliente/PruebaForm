@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProyectoPrueba1.Properties
+namespace PruebaCalculadora.Properties
 {
 
 

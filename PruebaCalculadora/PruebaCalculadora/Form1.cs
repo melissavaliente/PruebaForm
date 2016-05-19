@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoPrueba1
+namespace PruebaCalculadora
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Prueba2
+namespace PruebaCalculadora
 {
     static class Program
     {
