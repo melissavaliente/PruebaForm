@@ -1,4 +1,6 @@
-﻿namespace PruebaCalculadora
+﻿using System;
+
+namespace PruebaCalculadora
 {
     partial class Form1
     {
@@ -34,9 +36,14 @@
             // 
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            NewMethod();
             this.ResumeLayout(false);
 
+        }
+
+        private void NewMethod()
+        {
+            Load += new System.EventHandler(this.Form1_Load);
         }
 
         #endregion
@@ -63,6 +70,8 @@
         private System.Windows.Forms.Button Resta;
         private System.Windows.Forms.Button Igual;
         private System.Windows.Forms.Button Retroceso;
+
+        public EventHandler Form1_Load { get; private set; }
     }
 }
 
