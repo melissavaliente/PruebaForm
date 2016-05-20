@@ -28,12 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox Pantalla;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.Button num1;
+        private System.Windows.Forms.Button num2;
+        private System.Windows.Forms.Button num3;
+        private System.Windows.Forms.Button num4;
+        private System.Windows.Forms.Button num5;
+        private System.Windows.Forms.Button num6;
+        private System.Windows.Forms.Button num7;
+        private System.Windows.Forms.Button num8;
+        private System.Windows.Forms.Button num9;
+        private System.Windows.Forms.Button num0;
+        private System.Windows.Forms.Button Punto;
+        private System.Windows.Forms.Button Suma;
+        private System.Windows.Forms.Button Division;
+        private System.Windows.Forms.Button Borrar;
+        private System.Windows.Forms.Button Multiplicacion;
+        private System.Windows.Forms.Button Resta;
+        private System.Windows.Forms.Button Igual;
+        private System.Windows.Forms.Button Retroceso;
     }
 }
 
