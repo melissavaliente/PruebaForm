@@ -173,6 +173,34 @@ namespace Calculadora
             secuencia = true;
         }
 
+        private void Borrar_Click(object sender, EventArgs e)
+        {
+            Pantalla.Text = "0";
+            numero1 = 0;
+            numero2 = 0;
+            secuencia = true;
+        }
+
+        private void Regresar_Click(object sender, EventArgs e)
+        {
+            int x = 0;
+            borrado = Pantalla.Text;
+            x = borrado.Length - 1;
+            borrado = borrado.Substring(0, x);
+            Pantalla.Text = borrado;
+
+            if (Pantalla.Text == "")
+            {
+                Pantalla.Text = "0";
+                secuencia = true;
+            }
+            if (Pantalla.Text == "-")
+            {
+                Pantalla.Text = "0";
+                secuencia = true;
+            }
+        }
+
         private void Multiplicacion_Click(object sender, EventArgs e)
         {
             operacion = "*";

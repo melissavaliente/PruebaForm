@@ -210,6 +210,7 @@
             this.Borrar.TabIndex = 15;
             this.Borrar.Text = "C";
             this.Borrar.UseVisualStyleBackColor = true;
+            this.Borrar.Click += new System.EventHandler(this.Borrar_Click);
             // 
             // Regresar
             // 
@@ -219,6 +220,7 @@
             this.Regresar.TabIndex = 16;
             this.Regresar.Text = "←";
             this.Regresar.UseVisualStyleBackColor = true;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
             // Pantalla
             // 
