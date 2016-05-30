@@ -160,6 +160,7 @@
             this.Suma.TabIndex = 10;
             this.Suma.Text = "+";
             this.Suma.UseVisualStyleBackColor = true;
+            this.Suma.Click += new System.EventHandler(this.Suma_Click);
             // 
             // Resta
             // 
@@ -169,6 +170,7 @@
             this.Resta.TabIndex = 11;
             this.Resta.Text = "-";
             this.Resta.UseVisualStyleBackColor = true;
+            this.Resta.Click += new System.EventHandler(this.Resta_Click);
             // 
             // Multiplicacion
             // 
@@ -178,6 +180,7 @@
             this.Multiplicacion.TabIndex = 12;
             this.Multiplicacion.Text = "*";
             this.Multiplicacion.UseVisualStyleBackColor = true;
+            this.Multiplicacion.Click += new System.EventHandler(this.Multiplicacion_Click);
             // 
             // Division
             // 
@@ -187,6 +190,7 @@
             this.Division.TabIndex = 13;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
+            this.Division.Click += new System.EventHandler(this.Division_Click);
             // 
             // Igual
             // 
@@ -196,6 +200,7 @@
             this.Igual.TabIndex = 14;
             this.Igual.Text = "=";
             this.Igual.UseVisualStyleBackColor = true;
+            this.Igual.Click += new System.EventHandler(this.Igual_Click);
             // 
             // Borrar
             // 

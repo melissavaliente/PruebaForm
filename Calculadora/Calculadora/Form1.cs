@@ -16,7 +16,11 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+
         bool secuencia = true;
+        string operacion, borrado;
+        double numero1, numero2, resultado;
+
         private void num1_Click(object sender, EventArgs e)
         {
             if (secuencia == true)
@@ -152,6 +156,63 @@ namespace Calculadora
             else
             {
                 Pantalla.Text = Pantalla.Text + "0";
+            }
+        }
+
+        private void Suma_Click(object sender, EventArgs e)
+        {
+            operacion = "+";
+            numero1 = double.Parse(Pantalla.Text);
+            secuencia = true;
+        }
+
+        private void Resta_Click(object sender, EventArgs e)
+        {
+            operacion = "-";
+            numero1 = double.Parse(Pantalla.Text);
+            secuencia = true;
+        }
+
+        private void Multiplicacion_Click(object sender, EventArgs e)
+        {
+            operacion = "*";
+            numero1 = double.Parse(Pantalla.Text);
+            secuencia = true;
+        }
+
+        private void Division_Click(object sender, EventArgs e)
+        {
+            operacion = "/";
+            numero1 = double.Parse(Pantalla.Text);
+            secuencia = true;
+        }
+
+        private void Igual_Click(object sender, EventArgs e)
+        {
+            numero2 = double.Parse(Pantalla.Text);
+            if (operacion == "+")
+            {
+                resultado = numero1 + numero2;
+                Pantalla.Text = resultado.ToString();
+                secuencia = true;
+            }
+            if (operacion == "-")
+            {
+                resultado = numero1 - numero2;
+                Pantalla.Text = resultado.ToString();
+                secuencia = true;
+            }
+            if (operacion == "*")
+            {
+                resultado = numero1 * numero2;
+                Pantalla.Text = resultado.ToString();
+                secuencia = true;
+            }
+            if (operacion == "/")
+            {
+                resultado = numero1 / numero2;
+                Pantalla.Text = resultado.ToString();
+                secuencia = true;
             }
         }
     }
