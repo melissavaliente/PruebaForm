@@ -54,191 +54,249 @@
             // 
             // num1
             // 
-            this.num1.Location = new System.Drawing.Point(85, 215);
+            this.num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num1.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num1.Location = new System.Drawing.Point(55, 357);
+            this.num1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num1.Name = "num1";
-            this.num1.Size = new System.Drawing.Size(43, 34);
+            this.num1.Size = new System.Drawing.Size(68, 43);
             this.num1.TabIndex = 0;
             this.num1.Text = "1";
-            this.num1.UseVisualStyleBackColor = true;
+            this.num1.UseVisualStyleBackColor = false;
             this.num1.Click += new System.EventHandler(this.num1_Click);
             // 
             // num2
             // 
-            this.num2.Location = new System.Drawing.Point(134, 215);
+            this.num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num2.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num2.Location = new System.Drawing.Point(140, 357);
+            this.num2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num2.Name = "num2";
-            this.num2.Size = new System.Drawing.Size(43, 34);
+            this.num2.Size = new System.Drawing.Size(79, 43);
             this.num2.TabIndex = 1;
             this.num2.Text = "2";
-            this.num2.UseVisualStyleBackColor = true;
+            this.num2.UseVisualStyleBackColor = false;
             this.num2.Click += new System.EventHandler(this.num2_Click);
             // 
             // num3
             // 
-            this.num3.Location = new System.Drawing.Point(183, 215);
+            this.num3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num3.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num3.Location = new System.Drawing.Point(246, 357);
+            this.num3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num3.Name = "num3";
-            this.num3.Size = new System.Drawing.Size(43, 34);
+            this.num3.Size = new System.Drawing.Size(79, 43);
             this.num3.TabIndex = 2;
             this.num3.Text = "3";
-            this.num3.UseVisualStyleBackColor = true;
+            this.num3.UseVisualStyleBackColor = false;
             this.num3.Click += new System.EventHandler(this.num3_Click);
             // 
             // num4
             // 
-            this.num4.Location = new System.Drawing.Point(85, 175);
+            this.num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num4.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num4.Location = new System.Drawing.Point(55, 284);
+            this.num4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num4.Name = "num4";
-            this.num4.Size = new System.Drawing.Size(43, 34);
+            this.num4.Size = new System.Drawing.Size(68, 51);
             this.num4.TabIndex = 3;
             this.num4.Text = "4";
-            this.num4.UseVisualStyleBackColor = true;
+            this.num4.UseVisualStyleBackColor = false;
             this.num4.Click += new System.EventHandler(this.num4_Click);
             // 
             // num5
             // 
-            this.num5.Location = new System.Drawing.Point(134, 175);
+            this.num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num5.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num5.Location = new System.Drawing.Point(140, 284);
+            this.num5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num5.Name = "num5";
-            this.num5.Size = new System.Drawing.Size(43, 34);
+            this.num5.Size = new System.Drawing.Size(79, 51);
             this.num5.TabIndex = 4;
             this.num5.Text = "5";
-            this.num5.UseVisualStyleBackColor = true;
+            this.num5.UseVisualStyleBackColor = false;
             this.num5.Click += new System.EventHandler(this.num5_Click);
             // 
             // num6
             // 
-            this.num6.Location = new System.Drawing.Point(183, 175);
+            this.num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num6.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num6.Location = new System.Drawing.Point(246, 284);
+            this.num6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num6.Name = "num6";
-            this.num6.Size = new System.Drawing.Size(43, 34);
+            this.num6.Size = new System.Drawing.Size(79, 51);
             this.num6.TabIndex = 5;
             this.num6.Text = "6";
-            this.num6.UseVisualStyleBackColor = true;
+            this.num6.UseVisualStyleBackColor = false;
             this.num6.Click += new System.EventHandler(this.num6_Click);
             // 
             // num7
             // 
-            this.num7.Location = new System.Drawing.Point(85, 135);
+            this.num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num7.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num7.Location = new System.Drawing.Point(55, 210);
+            this.num7.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num7.Name = "num7";
-            this.num7.Size = new System.Drawing.Size(43, 34);
+            this.num7.Size = new System.Drawing.Size(68, 51);
             this.num7.TabIndex = 6;
             this.num7.Text = "7";
-            this.num7.UseVisualStyleBackColor = true;
+            this.num7.UseVisualStyleBackColor = false;
             this.num7.Click += new System.EventHandler(this.num7_Click);
             // 
             // num8
             // 
-            this.num8.Location = new System.Drawing.Point(134, 135);
+            this.num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num8.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num8.Location = new System.Drawing.Point(140, 210);
+            this.num8.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num8.Name = "num8";
-            this.num8.Size = new System.Drawing.Size(43, 34);
+            this.num8.Size = new System.Drawing.Size(79, 51);
             this.num8.TabIndex = 7;
             this.num8.Text = "8";
-            this.num8.UseVisualStyleBackColor = true;
+            this.num8.UseVisualStyleBackColor = false;
             this.num8.Click += new System.EventHandler(this.num8_Click);
             // 
             // num9
             // 
-            this.num9.Location = new System.Drawing.Point(183, 135);
+            this.num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num9.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num9.Location = new System.Drawing.Point(246, 210);
+            this.num9.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num9.Name = "num9";
-            this.num9.Size = new System.Drawing.Size(43, 34);
+            this.num9.Size = new System.Drawing.Size(79, 51);
             this.num9.TabIndex = 8;
             this.num9.Text = "9";
-            this.num9.UseVisualStyleBackColor = true;
+            this.num9.UseVisualStyleBackColor = false;
             this.num9.Click += new System.EventHandler(this.num9_Click);
             // 
             // num0
             // 
-            this.num0.Location = new System.Drawing.Point(85, 255);
+            this.num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.num0.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num0.Location = new System.Drawing.Point(87, 412);
+            this.num0.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num0.Name = "num0";
-            this.num0.Size = new System.Drawing.Size(141, 34);
+            this.num0.Size = new System.Drawing.Size(194, 41);
             this.num0.TabIndex = 9;
             this.num0.Text = "0";
-            this.num0.UseVisualStyleBackColor = true;
+            this.num0.UseVisualStyleBackColor = false;
             this.num0.Click += new System.EventHandler(this.num0_Click);
             // 
             // Suma
             // 
-            this.Suma.Location = new System.Drawing.Point(232, 180);
+            this.Suma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Suma.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Suma.Location = new System.Drawing.Point(349, 273);
+            this.Suma.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Suma.Name = "Suma";
-            this.Suma.Size = new System.Drawing.Size(48, 109);
+            this.Suma.Size = new System.Drawing.Size(76, 167);
             this.Suma.TabIndex = 10;
             this.Suma.Text = "+";
-            this.Suma.UseVisualStyleBackColor = true;
+            this.Suma.UseVisualStyleBackColor = false;
             this.Suma.Click += new System.EventHandler(this.Suma_Click);
             // 
             // Resta
             // 
-            this.Resta.Location = new System.Drawing.Point(232, 138);
+            this.Resta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Resta.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Resta.Location = new System.Drawing.Point(349, 210);
+            this.Resta.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Resta.Name = "Resta";
-            this.Resta.Size = new System.Drawing.Size(47, 31);
+            this.Resta.Size = new System.Drawing.Size(75, 51);
             this.Resta.TabIndex = 11;
             this.Resta.Text = "-";
-            this.Resta.UseVisualStyleBackColor = true;
+            this.Resta.UseVisualStyleBackColor = false;
             this.Resta.Click += new System.EventHandler(this.Resta_Click);
             // 
             // Multiplicacion
             // 
-            this.Multiplicacion.Location = new System.Drawing.Point(286, 138);
+            this.Multiplicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Multiplicacion.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Multiplicacion.Location = new System.Drawing.Point(451, 210);
+            this.Multiplicacion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Multiplicacion.Name = "Multiplicacion";
-            this.Multiplicacion.Size = new System.Drawing.Size(47, 31);
+            this.Multiplicacion.Size = new System.Drawing.Size(73, 51);
             this.Multiplicacion.TabIndex = 12;
             this.Multiplicacion.Text = "*";
-            this.Multiplicacion.UseVisualStyleBackColor = true;
+            this.Multiplicacion.UseVisualStyleBackColor = false;
             this.Multiplicacion.Click += new System.EventHandler(this.Multiplicacion_Click);
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(339, 138);
+            this.Division.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Division.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Division.Location = new System.Drawing.Point(550, 210);
+            this.Division.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(47, 31);
+            this.Division.Size = new System.Drawing.Size(69, 51);
             this.Division.TabIndex = 13;
             this.Division.Text = "/";
-            this.Division.UseVisualStyleBackColor = true;
+            this.Division.UseVisualStyleBackColor = false;
             this.Division.Click += new System.EventHandler(this.Division_Click);
             // 
             // Igual
             // 
-            this.Igual.Location = new System.Drawing.Point(286, 180);
+            this.Igual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Igual.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Igual.Location = new System.Drawing.Point(451, 266);
+            this.Igual.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Igual.Name = "Igual";
-            this.Igual.Size = new System.Drawing.Size(47, 109);
+            this.Igual.Size = new System.Drawing.Size(73, 174);
             this.Igual.TabIndex = 14;
             this.Igual.Text = "=";
-            this.Igual.UseVisualStyleBackColor = true;
+            this.Igual.UseVisualStyleBackColor = false;
             this.Igual.Click += new System.EventHandler(this.Igual_Click);
             // 
             // Borrar
             // 
-            this.Borrar.Location = new System.Drawing.Point(339, 180);
+            this.Borrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Borrar.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Borrar.Location = new System.Drawing.Point(550, 265);
+            this.Borrar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Borrar.Name = "Borrar";
-            this.Borrar.Size = new System.Drawing.Size(47, 109);
+            this.Borrar.Size = new System.Drawing.Size(69, 175);
             this.Borrar.TabIndex = 15;
             this.Borrar.Text = "C";
-            this.Borrar.UseVisualStyleBackColor = true;
+            this.Borrar.UseVisualStyleBackColor = false;
             this.Borrar.Click += new System.EventHandler(this.Borrar_Click);
             // 
             // Regresar
             // 
-            this.Regresar.Location = new System.Drawing.Point(85, 103);
+            this.Regresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Regresar.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Regresar.Location = new System.Drawing.Point(55, 146);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(89, 26);
+            this.Regresar.Size = new System.Drawing.Size(60, 52);
             this.Regresar.TabIndex = 16;
             this.Regresar.Text = "←";
-            this.Regresar.UseVisualStyleBackColor = true;
+            this.Regresar.UseVisualStyleBackColor = false;
             this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
             // Pantalla
             // 
-            this.Pantalla.Location = new System.Drawing.Point(85, 45);
+            this.Pantalla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Pantalla.Font = new System.Drawing.Font("Curlz MT", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pantalla.Location = new System.Drawing.Point(156, 70);
+            this.Pantalla.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Pantalla.Multiline = true;
             this.Pantalla.Name = "Pantalla";
-            this.Pantalla.Size = new System.Drawing.Size(301, 41);
+            this.Pantalla.ReadOnly = true;
+            this.Pantalla.Size = new System.Drawing.Size(350, 70);
             this.Pantalla.TabIndex = 17;
             this.Pantalla.Text = "0";
             this.Pantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.archivoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(476, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 4, 0, 4);
+            this.menuStrip1.Size = new System.Drawing.Size(643, 27);
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -247,7 +305,7 @@
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.salirToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
-            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 19);
             this.archivoToolStripMenuItem.Text = "Archivo";
             // 
             // salirToolStripMenuItem
@@ -259,9 +317,12 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 307);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(643, 468);
             this.Controls.Add(this.Pantalla);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.Borrar);
@@ -281,7 +342,14 @@
             this.Controls.Add(this.num2);
             this.Controls.Add(this.num1);
             this.Controls.Add(this.menuStrip1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Magenta;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Calculadora";
             this.menuStrip1.ResumeLayout(false);
