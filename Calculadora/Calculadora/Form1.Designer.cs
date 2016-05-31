@@ -49,6 +49,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +58,7 @@
             this.num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num1.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num1.Location = new System.Drawing.Point(44, 293);
-            this.num1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num1.Margin = new System.Windows.Forms.Padding(6);
             this.num1.Name = "num1";
             this.num1.Size = new System.Drawing.Size(68, 48);
             this.num1.TabIndex = 0;
@@ -70,7 +71,7 @@
             this.num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num2.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num2.Location = new System.Drawing.Point(129, 293);
-            this.num2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num2.Margin = new System.Windows.Forms.Padding(6);
             this.num2.Name = "num2";
             this.num2.Size = new System.Drawing.Size(79, 53);
             this.num2.TabIndex = 1;
@@ -83,7 +84,7 @@
             this.num3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num3.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num3.Location = new System.Drawing.Point(235, 293);
-            this.num3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num3.Margin = new System.Windows.Forms.Padding(6);
             this.num3.Name = "num3";
             this.num3.Size = new System.Drawing.Size(79, 53);
             this.num3.TabIndex = 2;
@@ -96,7 +97,7 @@
             this.num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num4.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num4.Location = new System.Drawing.Point(44, 230);
-            this.num4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num4.Margin = new System.Windows.Forms.Padding(6);
             this.num4.Name = "num4";
             this.num4.Size = new System.Drawing.Size(68, 51);
             this.num4.TabIndex = 3;
@@ -109,7 +110,7 @@
             this.num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num5.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num5.Location = new System.Drawing.Point(129, 230);
-            this.num5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num5.Margin = new System.Windows.Forms.Padding(6);
             this.num5.Name = "num5";
             this.num5.Size = new System.Drawing.Size(79, 51);
             this.num5.TabIndex = 4;
@@ -122,7 +123,7 @@
             this.num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num6.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num6.Location = new System.Drawing.Point(235, 230);
-            this.num6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num6.Margin = new System.Windows.Forms.Padding(6);
             this.num6.Name = "num6";
             this.num6.Size = new System.Drawing.Size(79, 51);
             this.num6.TabIndex = 5;
@@ -135,7 +136,7 @@
             this.num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num7.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num7.Location = new System.Drawing.Point(44, 156);
-            this.num7.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num7.Margin = new System.Windows.Forms.Padding(6);
             this.num7.Name = "num7";
             this.num7.Size = new System.Drawing.Size(68, 51);
             this.num7.TabIndex = 6;
@@ -148,7 +149,7 @@
             this.num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num8.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num8.Location = new System.Drawing.Point(129, 156);
-            this.num8.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num8.Margin = new System.Windows.Forms.Padding(6);
             this.num8.Name = "num8";
             this.num8.Size = new System.Drawing.Size(79, 51);
             this.num8.TabIndex = 7;
@@ -161,7 +162,7 @@
             this.num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num9.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num9.Location = new System.Drawing.Point(235, 156);
-            this.num9.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num9.Margin = new System.Windows.Forms.Padding(6);
             this.num9.Name = "num9";
             this.num9.Size = new System.Drawing.Size(79, 51);
             this.num9.TabIndex = 8;
@@ -174,7 +175,7 @@
             this.num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num0.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.num0.Location = new System.Drawing.Point(76, 358);
-            this.num0.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.num0.Margin = new System.Windows.Forms.Padding(6);
             this.num0.Name = "num0";
             this.num0.Size = new System.Drawing.Size(194, 41);
             this.num0.TabIndex = 9;
@@ -187,7 +188,7 @@
             this.Suma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Suma.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Suma.Location = new System.Drawing.Point(336, 164);
-            this.Suma.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Suma.Margin = new System.Windows.Forms.Padding(6);
             this.Suma.Name = "Suma";
             this.Suma.Size = new System.Drawing.Size(48, 40);
             this.Suma.TabIndex = 10;
@@ -200,7 +201,7 @@
             this.Resta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Resta.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Resta.Location = new System.Drawing.Point(336, 216);
-            this.Resta.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Resta.Margin = new System.Windows.Forms.Padding(6);
             this.Resta.Name = "Resta";
             this.Resta.Size = new System.Drawing.Size(48, 40);
             this.Resta.TabIndex = 11;
@@ -213,7 +214,7 @@
             this.Multiplicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Multiplicacion.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Multiplicacion.Location = new System.Drawing.Point(336, 268);
-            this.Multiplicacion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Multiplicacion.Margin = new System.Windows.Forms.Padding(6);
             this.Multiplicacion.Name = "Multiplicacion";
             this.Multiplicacion.Size = new System.Drawing.Size(48, 40);
             this.Multiplicacion.TabIndex = 12;
@@ -226,7 +227,7 @@
             this.Division.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Division.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Division.Location = new System.Drawing.Point(336, 320);
-            this.Division.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Division.Margin = new System.Windows.Forms.Padding(6);
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(50, 40);
             this.Division.TabIndex = 13;
@@ -239,7 +240,7 @@
             this.Igual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Igual.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Igual.Location = new System.Drawing.Point(396, 244);
-            this.Igual.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Igual.Margin = new System.Windows.Forms.Padding(6);
             this.Igual.Name = "Igual";
             this.Igual.Size = new System.Drawing.Size(73, 116);
             this.Igual.TabIndex = 14;
@@ -252,7 +253,7 @@
             this.Borrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Borrar.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Borrar.Location = new System.Drawing.Point(481, 164);
-            this.Borrar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Borrar.Margin = new System.Windows.Forms.Padding(6);
             this.Borrar.Name = "Borrar";
             this.Borrar.Size = new System.Drawing.Size(69, 197);
             this.Borrar.TabIndex = 15;
@@ -265,7 +266,7 @@
             this.Regresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Regresar.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Regresar.Location = new System.Drawing.Point(396, 164);
-            this.Regresar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Regresar.Margin = new System.Windows.Forms.Padding(6);
             this.Regresar.Name = "Regresar";
             this.Regresar.Size = new System.Drawing.Size(73, 68);
             this.Regresar.TabIndex = 16;
@@ -278,7 +279,7 @@
             this.Pantalla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Pantalla.Font = new System.Drawing.Font("Curlz MT", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pantalla.Location = new System.Drawing.Point(106, 60);
-            this.Pantalla.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Pantalla.Margin = new System.Windows.Forms.Padding(6);
             this.Pantalla.Multiline = true;
             this.Pantalla.Name = "Pantalla";
             this.Pantalla.ReadOnly = true;
@@ -311,9 +312,19 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(468, 80);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(115, 30);
+            this.checkBox1.TabIndex = 19;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -323,6 +334,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(583, 408);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.Pantalla);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.Borrar);
@@ -347,7 +359,7 @@
             this.ForeColor = System.Drawing.Color.Magenta;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -382,6 +394,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
