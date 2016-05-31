@@ -49,6 +49,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,10 +57,10 @@
             // 
             this.num1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num1.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num1.Location = new System.Drawing.Point(55, 357);
+            this.num1.Location = new System.Drawing.Point(44, 293);
             this.num1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num1.Name = "num1";
-            this.num1.Size = new System.Drawing.Size(68, 43);
+            this.num1.Size = new System.Drawing.Size(68, 48);
             this.num1.TabIndex = 0;
             this.num1.Text = "1";
             this.num1.UseVisualStyleBackColor = false;
@@ -69,10 +70,10 @@
             // 
             this.num2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num2.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num2.Location = new System.Drawing.Point(140, 357);
+            this.num2.Location = new System.Drawing.Point(129, 293);
             this.num2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num2.Name = "num2";
-            this.num2.Size = new System.Drawing.Size(79, 43);
+            this.num2.Size = new System.Drawing.Size(79, 53);
             this.num2.TabIndex = 1;
             this.num2.Text = "2";
             this.num2.UseVisualStyleBackColor = false;
@@ -82,10 +83,10 @@
             // 
             this.num3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num3.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num3.Location = new System.Drawing.Point(246, 357);
+            this.num3.Location = new System.Drawing.Point(235, 293);
             this.num3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num3.Name = "num3";
-            this.num3.Size = new System.Drawing.Size(79, 43);
+            this.num3.Size = new System.Drawing.Size(79, 53);
             this.num3.TabIndex = 2;
             this.num3.Text = "3";
             this.num3.UseVisualStyleBackColor = false;
@@ -95,7 +96,7 @@
             // 
             this.num4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num4.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num4.Location = new System.Drawing.Point(55, 284);
+            this.num4.Location = new System.Drawing.Point(44, 230);
             this.num4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num4.Name = "num4";
             this.num4.Size = new System.Drawing.Size(68, 51);
@@ -108,7 +109,7 @@
             // 
             this.num5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num5.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num5.Location = new System.Drawing.Point(140, 284);
+            this.num5.Location = new System.Drawing.Point(129, 230);
             this.num5.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num5.Name = "num5";
             this.num5.Size = new System.Drawing.Size(79, 51);
@@ -121,7 +122,7 @@
             // 
             this.num6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num6.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num6.Location = new System.Drawing.Point(246, 284);
+            this.num6.Location = new System.Drawing.Point(235, 230);
             this.num6.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num6.Name = "num6";
             this.num6.Size = new System.Drawing.Size(79, 51);
@@ -134,7 +135,7 @@
             // 
             this.num7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num7.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num7.Location = new System.Drawing.Point(55, 210);
+            this.num7.Location = new System.Drawing.Point(44, 156);
             this.num7.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num7.Name = "num7";
             this.num7.Size = new System.Drawing.Size(68, 51);
@@ -147,7 +148,7 @@
             // 
             this.num8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num8.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num8.Location = new System.Drawing.Point(140, 210);
+            this.num8.Location = new System.Drawing.Point(129, 156);
             this.num8.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num8.Name = "num8";
             this.num8.Size = new System.Drawing.Size(79, 51);
@@ -160,7 +161,7 @@
             // 
             this.num9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num9.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num9.Location = new System.Drawing.Point(246, 210);
+            this.num9.Location = new System.Drawing.Point(235, 156);
             this.num9.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num9.Name = "num9";
             this.num9.Size = new System.Drawing.Size(79, 51);
@@ -173,7 +174,7 @@
             // 
             this.num0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.num0.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num0.Location = new System.Drawing.Point(87, 412);
+            this.num0.Location = new System.Drawing.Point(76, 358);
             this.num0.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.num0.Name = "num0";
             this.num0.Size = new System.Drawing.Size(194, 41);
@@ -185,11 +186,11 @@
             // Suma
             // 
             this.Suma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Suma.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Suma.Location = new System.Drawing.Point(349, 273);
+            this.Suma.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Suma.Location = new System.Drawing.Point(336, 164);
             this.Suma.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Suma.Name = "Suma";
-            this.Suma.Size = new System.Drawing.Size(76, 167);
+            this.Suma.Size = new System.Drawing.Size(48, 40);
             this.Suma.TabIndex = 10;
             this.Suma.Text = "+";
             this.Suma.UseVisualStyleBackColor = false;
@@ -198,11 +199,11 @@
             // Resta
             // 
             this.Resta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Resta.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Resta.Location = new System.Drawing.Point(349, 210);
+            this.Resta.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Resta.Location = new System.Drawing.Point(336, 216);
             this.Resta.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Resta.Name = "Resta";
-            this.Resta.Size = new System.Drawing.Size(75, 51);
+            this.Resta.Size = new System.Drawing.Size(48, 40);
             this.Resta.TabIndex = 11;
             this.Resta.Text = "-";
             this.Resta.UseVisualStyleBackColor = false;
@@ -211,11 +212,11 @@
             // Multiplicacion
             // 
             this.Multiplicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Multiplicacion.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Multiplicacion.Location = new System.Drawing.Point(451, 210);
+            this.Multiplicacion.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Multiplicacion.Location = new System.Drawing.Point(336, 268);
             this.Multiplicacion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Multiplicacion.Name = "Multiplicacion";
-            this.Multiplicacion.Size = new System.Drawing.Size(73, 51);
+            this.Multiplicacion.Size = new System.Drawing.Size(48, 40);
             this.Multiplicacion.TabIndex = 12;
             this.Multiplicacion.Text = "*";
             this.Multiplicacion.UseVisualStyleBackColor = false;
@@ -224,11 +225,11 @@
             // Division
             // 
             this.Division.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Division.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Division.Location = new System.Drawing.Point(550, 210);
+            this.Division.Font = new System.Drawing.Font("Curlz MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Division.Location = new System.Drawing.Point(336, 320);
             this.Division.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(69, 51);
+            this.Division.Size = new System.Drawing.Size(50, 40);
             this.Division.TabIndex = 13;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = false;
@@ -238,10 +239,10 @@
             // 
             this.Igual.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Igual.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Igual.Location = new System.Drawing.Point(451, 266);
+            this.Igual.Location = new System.Drawing.Point(396, 244);
             this.Igual.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Igual.Name = "Igual";
-            this.Igual.Size = new System.Drawing.Size(73, 174);
+            this.Igual.Size = new System.Drawing.Size(73, 116);
             this.Igual.TabIndex = 14;
             this.Igual.Text = "=";
             this.Igual.UseVisualStyleBackColor = false;
@@ -251,10 +252,10 @@
             // 
             this.Borrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Borrar.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Borrar.Location = new System.Drawing.Point(550, 265);
+            this.Borrar.Location = new System.Drawing.Point(481, 164);
             this.Borrar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Borrar.Name = "Borrar";
-            this.Borrar.Size = new System.Drawing.Size(69, 175);
+            this.Borrar.Size = new System.Drawing.Size(69, 197);
             this.Borrar.TabIndex = 15;
             this.Borrar.Text = "C";
             this.Borrar.UseVisualStyleBackColor = false;
@@ -264,10 +265,10 @@
             // 
             this.Regresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Regresar.Font = new System.Drawing.Font("Curlz MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Regresar.Location = new System.Drawing.Point(55, 146);
+            this.Regresar.Location = new System.Drawing.Point(396, 164);
             this.Regresar.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(60, 52);
+            this.Regresar.Size = new System.Drawing.Size(73, 68);
             this.Regresar.TabIndex = 16;
             this.Regresar.Text = "←";
             this.Regresar.UseVisualStyleBackColor = false;
@@ -277,7 +278,7 @@
             // 
             this.Pantalla.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Pantalla.Font = new System.Drawing.Font("Curlz MT", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pantalla.Location = new System.Drawing.Point(156, 70);
+            this.Pantalla.Location = new System.Drawing.Point(106, 60);
             this.Pantalla.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Pantalla.Multiline = true;
             this.Pantalla.Name = "Pantalla";
@@ -296,7 +297,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(643, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(583, 27);
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -315,6 +316,15 @@
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(465, 60);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(91, 46);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
@@ -322,7 +332,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(643, 468);
+            this.ClientSize = new System.Drawing.Size(583, 408);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Pantalla);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.Borrar);
@@ -382,6 +393,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem archivoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 
