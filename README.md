@@ -43,12 +43,19 @@
 Ir a:
 
 •	Computer
+
 •	Propierties
+
 •	Advanced System Setting
+
 •	Envioronment Varibles
+
 •	Sistem Variables
+
 •	New Sistem Variables
+
 		Varibale Name: Path
+		
 		Variable Value: C:\Program Files (x86)\MSBuild\14.0\Bin
 
 Para ir a la dirección de Variable Value debemos.
@@ -56,11 +63,17 @@ Para ir a la dirección de Variable Value debemos.
 Ir a:
 
 •	Computer
+
 •	Local Disk (C:)
+
 •	Program Files (x86)
+
 •	MSBuild
+
 •	Seleccionar la versión que tiene instalada en mi caso es la versión 14.0
+
 •	Bin
+
 •	Copiamos la dirección y la colocamos en Variable Value
 
 	**Descargar e Instalar Git en la máquina virtual**
@@ -73,12 +86,19 @@ Ir a:
 Vamos a:
 
 •	Manage Jenkins.
+
 •	Manage Plugins.
+
 •	Buscar todos los plugins de Git, en la opción Avaible Buscar, seleccionar e instalar, cuando hemos seleccionado todos los Plugins         dar clic en Download now and install after restart.
+
 •	Ahora vamos de nuevo a Manage Jenkins. 
+
 •	Seleccionamos la opción Global Tools Configuration.
+
 •	Configuramos en el apartado de Git.
+		
 		Name: Git
+		
 		Path to Git Executable: C:\Program Files\Git\bin.git.exe
 
 Pasos para crear Path to Git Executable
@@ -86,10 +106,15 @@ Pasos para crear Path to Git Executable
 Ir a:
 
 •	Computer
+
 •	Local Disk (C:)
+
 •	Program Files
+
 •	Git
+
 •	Bin
+
 •	Agregar Git.exe al final de la dirección, dar clic en Save para guardar cambios.
 
 •	Instalar Plugins de MSBuild en Jenkins
@@ -97,14 +122,23 @@ Ir a:
 Vamos a:
 
 •	Manage Jenkins.
+
 •	Manage Plugins.
+
 •	Buscar todos los plugins de MSBuild, en la opción Avaible Buscar, seleccionar e instalar, cuando hemos seleccionado todos los             Plugins dar clic en Download now and install after restart.
+
 •	Ahora vamos de nuevo a Manage Jenkins. 
+
 •	Seleccionamos la opción Global Tools Configuration.
+
 •	Configuramos el apartado MSBuild
+
 •	Dar clic en MSBuild Installations…
+
 		Name: MSBuild
+		
 		Path to MSBuild: MSBuild
+		
 		Solo escribimos MSBuild en Path to MSBuild, porque por eso creamos la Variable de Entorno al principio.
 
 **Creación de la Nueva Tarea en Jenkins**
