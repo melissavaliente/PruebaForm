@@ -145,9 +145,12 @@ Vamos a:
 
 Ir a: 
 
-•	**New Item (Nueva Tarea)**
+	**New Item (Nueva Tarea)**
+	
 •	Escribimos el nombre de la tarea.
+
 •	Seleccionar FreeStyle Project (Crear un Proyecto de Estilo Libre).
+
 •	Clic en Ok para crear la Tarea.
 
         **General**
@@ -157,34 +160,50 @@ Ir a:
 	**Source Code Managment (Configurar el Origen del Código Fuente)**
 
 •	Seleccionamos Git
+
 •	Seleccionamos GitHub Project, aquí es donde agregamos el link de donde se encuentra nuestro repositorio en GitHub, agregando al           final del link .GIT
+
 •	Agregar Credenciales
+
 •	Podemos crear una Credencial
         **Ir a Add Credentials (Agregar Credenciales)**
+        
 •	Seleccionar Jenkins
+
 •	Domain: Global Credential (Unrestricted)
+
 •	Kind: User Name with Password, llenar los campos que se le solicitan.
+
 •	Hacer clic en Add (Agregar) para poder guardar la credencial que acabamos de crear.
 
         **Build Triggers (Disparadores de Ejecución)**
         
 •	Seleccionar la opción Build when a change is pushed to GitHub (Construir un cambio cuando se empuja a GitHub).
+
 •	Seleccionar Poll SCM (Consultar Repositorio SCM, en el espacio en blanco del programador se colocara el tiempo de cada cuanto se          revisen si hay cambios.
 
 	**Build** 
 	
 •	Seleccionamos Add Build Step (Añadir un nuevo paso)
+
 •	Seleccionamos la opción Build a Visual Studio Project or Solution using MSBuil (Construir un proyecto de Visual Studio o solución         utilizando MSBuil)
+
 •	Configurar MSBuild
+
 •	MSBuild Version: Default
+
 •	MSBuild File: ${WORKSPACE}\NombreDelProyecto\ NombreDelProyecto.sln.
+
 •	Clic en Save para guardar las configuraciones de la tarea.
 			
 **Crear Servicio de Aplicaciones**
 
 •	Ir a la página https://portal.azure.com/  debemos crear un servicio de aplicaciones, en la parte izquierda aparecerá el servicio          de aplicaciones debemos crear uno, llenar los campos requeridos, al momento que ya este creado nuestro servicio de aplicaciones           debemos proceder con la configuración de dicho servicio.
+
 •	Nos vamos al bloque de publicación de nuestro servicio de aplicaciones, nos vamos a Origen de Implementación y seleccionamos Git.
+
 •	Configurar Credenciales de Implementación en este apartado debemos crear un usuario y contraseña las cuales utilizaremos en                https://buddy.works/
+
 •	Siempre dentro de la configuración de nuestro servicio de aplicaciones nos vamos a al bloque General y seleccionamos Propiedades y         luego copiamos en la URL de Git, también este paso nos servirá para hacer una nuevo Proyecto  en Buddy.
 
  **Registrarnos en Buddy**
@@ -194,9 +213,12 @@ Ir a:
  **Crear Nuevo Proyecto**
 
 •	New Project
+
 •	Seleccionamos que nuestro repositorio se encuentra en GitHub y seleccionamos el nombre del repositorio.
+
 •	Clic en Create a New Project
         Cuando ya este listo el Proyecto nos aparece una ventana nueva y damos clic en Build Your First Pipeline
+	
 		**Pipeline**
 		
 •	Agregar Nombre a nuestro Proyecto
@@ -208,12 +230,15 @@ Ir a:
 		**Assign to branch**
 
 •	Specific Branch
+
 •	Seleccionamos Master
+
 •	Damos clic en Add a new pipeline
 
 		**Add a new Action**
 		
 •	Deploy to IAAS
+
 •	Seleccionamos Azure
 
 **To do**
@@ -224,7 +249,9 @@ Ir a:
 	**Login**
 	
 • Llenamos los campos de Login y Password, utilizamos las credenciales de implementacion que creamos en nuestro servicio de aplicacion de   Azure.
+
 • Clic en Test connection & add this action on success, y ya esta creado nuestro nuevo proyecto.
+
 • Nos vamos al lado derecho despues que ya esta creado el proyecto y nos aparece una opcion Run Pipeline, damos clic ahi veremos como         nuestro proyecto esta funcionando correctamente.
 
 **Branches**
