@@ -1,13 +1,19 @@
 # PruebaForm
 Proyecto Ingeniería de Software
+
 Implementación Continua.
+
 1. IDE  
+
 .NET
 	El código que queremos en controlar esta Elaborado en Microsoft Visual Studio, lenguaje .NET
+	
 2. Configurar GitHub con Visual Studio Community.
 	Al momento de instalar Microsoft Visual Studio, debemos darle instalación personalizada, seleccionamos todos los componentes de Git.
+
 3. GitHub
 Vamos a la siguiente dirección https://github.com/ y allí nos registraremos, ingresaremos y creamos un repositorio de código fuente. 
+
 Volvemos a nuestro IDE y en la sección de  “Team Explorer” del Visual Studio Community. Ahí veremos que hay un menú llamado “Manage Connections”, en el cual se nos ofrecerá conectarnos a nuestro repositorio de GitHub, En ese punto nos pedirá que iniciemos sesión con nuestra cuenta de GitHub para poder acceder a la misma.
 Una vez completados estos pasos realizaremos cambios a nuestro código fuente, y en el lado Superior Derecho en la sección de “Changes” nos aparecerá un cuadro amarillo en donde podremos colocar un mensaje acerca de los cambios que fueron realizados, para luego presionar el botón “Commit and Push” esperaremos unos segundos y veremos estos cambios en nuestro repositorio de GitHub. 
 4. Crear cuenta en DreamSpark
