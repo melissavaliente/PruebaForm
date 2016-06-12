@@ -34,13 +34,12 @@
 	
 **Configurar Jenkins en máquina virtual**
 
-•	Descargar e Instalar MSBuildTools
+		**Descargar e Instalar MSBuildTools**
 
 	Ir a la página 
 		https://www.microsoft.com/en-us/download/details.aspx?id=40760
 
-•	Crear Variable de Entorno Path
-
+		**Crear Variable de Entorno Path**
 Ir a:
 
 •	Computer
@@ -49,8 +48,8 @@ Ir a:
 •	Envioronment Varibles
 •	Sistem Variables
 •	New Sistem Variables
-•	Varibale Name: Path
-•	Variable Value: C:\Program Files (x86)\MSBuild\14.0\Bin
+		Varibale Name: Path
+		Variable Value: C:\Program Files (x86)\MSBuild\14.0\Bin
 
 Para ir a la dirección de Variable Value debemos.
 
@@ -64,13 +63,13 @@ Ir a:
 •	Bin
 •	Copiamos la dirección y la colocamos en Variable Value
 
-•	Descargar e Instalar Git en la máquina virtual.
+	**Descargar e Instalar Git en la máquina virtual**
 		
 		Ir a la página https://git-scm.com/downloads
 		
 **Configuración de Jenkins con Git para poder crear una Nueva Tarea**
 
-•	Instalar los Plugins de Git en Jenkins
+		**Instalar los Plugins de Git en Jenkins**
 Vamos a:
 
 •	Manage Jenkins.
@@ -117,12 +116,11 @@ Ir a:
 •	Seleccionar FreeStyle Project (Crear un Proyecto de Estilo Libre).
 •	Clic en Ok para crear la Tarea.
 
-
         **General**
 
         Seleccionamos GitHub Project, aquí es donde agregamos el link de donde se encuentra nuestro repositorio en GitHub
 
-•	Source Code Managment (Configurar el Origen del Código Fuente).
+	**Source Code Managment (Configurar el Origen del Código Fuente)**
 
 •	Seleccionamos Git
 •	Seleccionamos GitHub Project, aquí es donde agregamos el link de donde se encuentra nuestro repositorio en GitHub, agregando al           final del link .GIT
@@ -158,3 +156,51 @@ Ir a:
  **Registrarnos en Buddy**
  
 •	Podemos acceder con la cuenta que iniciamos sesión en GitHub
+
+ **Crear Nuevo Proyecto**
+
+•	New Project
+•	Seleccionamos que nuestro repositorio se encuentra en GitHub y seleccionamos el nombre del repositorio.
+•	Clic en Create a New Project
+        Cuando ya este listo el Proyecto nos aparece una ventana nueva y damos clic en Build Your First Pipeline
+		**Pipeline**
+		
+•	Agregar Nombre a nuestro Proyecto
+
+		 **Trigger Mode**
+
+•	Seleccionamos On Every Push
+
+		**Assign to branch**
+
+•	Specific Branch
+•	Seleccionamos Master
+•	Damos clic en Add a new pipeline
+
+		**Add a new Action**
+		
+•	Deploy to IAAS
+•	Seleccionamos Azure
+
+**To do**
+	**URL**
+	
+• Seleccionamos URL,aqui es donde colocaremos la URL de Git que copiamos en el servicio de aplicaciones de Azure.
+
+	**Login**
+	
+• Llenamos los campos de Login y Password, utilizamos las credenciales de implementacion que creamos en nuestro servicio de aplicacion de   Azure.
+• Clic en Test connection & add this action on success, y ya esta creado nuestro nuevo proyecto.
+• Nos vamos al lado derecho despues que ya esta creado el proyecto y nos aparece una opcion Run Pipeline, damos clic ahi veremos como         nuestro proyecto esta funcionando correctamente.
+
+**Branches**
+
+	• Al lado derecho nos aparece una opcion llamada History, seleccionamos esa opcion y aparecerán los cambios que hemos hecho en nuestro repositorio, también aparecen los numeros de Commit.
+	
+Buddy es una herramienta que nos sirve como Integración Continua.
+
+
+
+
+
+
